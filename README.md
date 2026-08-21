@@ -55,11 +55,16 @@ plugins {
 
 ## 协议与来源 (License & Attribution)
 
-本项目基于 **GNU Affero General Public License v3.0 (AGPL-3.0)** 发布，完整许可文本见 [LICENSE](LICENSE)。
+本项目基于 **GNU Affero General Public License v3.0 (AGPL-3.0)** 发布，
+完整许可文本见 [LICENSE](LICENSE)。
 
-本仓库的部分代码（包括但不限于 `plugin/` 下 Gradle 插件的依赖注入与打包逻辑）派生自
-[mirai-console](https://github.com/mamoe/mirai)（原项目源码位于 [mirai-console/tools/gradle-plugin](https://github.com/mamoe/mirai/tree/dev/mirai-console/tools/gradle-plugin)）。
-原项目同样以 [AGPL-3.0](https://github.com/mamoe/mirai/blob/master/LICENSE) 许可发布，
-原始版权声明见各源文件头部及 [LICENSE](LICENSE) 中保留的声明。
+本仓库部分代码（包括但不限于 `plugin/` 下 Gradle 插件的依赖注入与打包逻辑）
+派生自 [mirai-console](https://github.com/mamoe/mirai/tree/dev/mirai-console)。
 
-依据 AGPL-3.0 的要求，对本项目的修改与再分发必须保持相同许可，并保留原始版权与许可声明。
+原项目由 Mamoe Technologies 及贡献者开发，并以 AGPL-3.0 许可发布。
+相关源文件中的原始版权声明已保留。
+
+本项目并非 mirai 官方项目，而是基于 mirai-console 部分代码与设计的社区派生项目。
+
+依据 AGPL-3.0，本项目修改版本及再分发版本必须继续以 AGPL-3.0 发布，
+并保留相关版权与许可声明。
