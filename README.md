@@ -48,6 +48,11 @@ plugins {
     - [chat-command](https://github.com/project-mirai/chat-command)
     - [mirai-api-http](https://github.com/project-mirai/mirai-api-http)
 
+## 鸣谢 (Acknowledgements)
+
+- [mirai](https://github.com/mamoe/mirai) — 感谢 mirai 项目提供的 QQ 协议实现、生态与基础 API
+- [Overflow](https://github.com/MrXiaoM/Overflow) — 感谢 Overflow 提供的 Onebot 11 协议实现（[开发文档](https://mirai.mrxiaom.top/)）
+
 ## 协议与来源 (License & Attribution)
 
 本项目基于 **GNU Affero General Public License v3.0 (AGPL-3.0)** 发布，完整许可文本见 [LICENSE](LICENSE)。
