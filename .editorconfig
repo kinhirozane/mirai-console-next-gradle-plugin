@@ -1,0 +1,34 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = false
+max_line_length = 120
+tab_width = 4
+ij_continuation_indent_size = 8
+ij_formatter_off_tag = @formatter:off
+ij_formatter_on_tag = @formatter:on
+ij_formatter_tags_enabled = true
+ij_smart_tabs = false
+ij_visual_guides = none
+ij_wrap_on_typing = false
+
+[*.properties]
+insert_final_newline = true
+ij_properties_align_group_field_declarations = false
+ij_properties_keep_blank_lines = true
+ij_properties_key_value_delimiter = equals
+ij_properties_spaces_around_key_value_delimiter = true
+
+[*.json]
+indent_size = 2
+
+[{*.kt,*.kts}]
+insert_final_newline = true
+
+[{*.yaml,*.yml}]
+indent_size = 2
+insert_final_newline = true
