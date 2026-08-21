@@ -7,6 +7,7 @@ plugins {
     alias(libs.plugins.spotless)
     alias(libs.plugins.plugin.publish)
     `maven-publish`
+    signing
     idea
 }
 
@@ -45,8 +46,8 @@ dependencies {
 }
 
 gradlePlugin {
-    website = "https://github.com/kinhirozane/mirai-console-next"
-    vcsUrl = "https://github.com/kinhirozane/mirai-console-next.git"
+    website = "https://github.com/kinhirozane/mirai-console-next-gradle-plugin"
+    vcsUrl = "https://github.com/kinhirozane/mirai-console-next-gradle-plugin.git"
     plugins {
         create("mirai-console-next") {
             id = "com.kinhiro.mirai-console-next"
@@ -66,6 +67,10 @@ spotless {
         encoding("UTF-8")
         endWithNewline()
     }
+}
+
+signing {
+    useGpgCmd()
 }
 
 publishing {
